@@ -32,4 +32,14 @@
         android:text="@string/save"
         android:onClick="saveTitle"
         />
+
+    <Button
+        android:id="@+id/btn_Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="backTitle"
+        android:text="@string/back" />
 </RelativeLayout>

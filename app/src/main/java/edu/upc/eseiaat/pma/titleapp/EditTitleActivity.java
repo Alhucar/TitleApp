@@ -31,5 +31,8 @@ public class EditTitleActivity extends AppCompatActivity {
         setResult(RESULT_OK, data);
         finish();
     }
+    public void backTitle(View view){
+        finish();
+    }
 
 }

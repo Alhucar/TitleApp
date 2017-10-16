@@ -26,7 +26,6 @@ public class TittleActivity extends AppCompatActivity {
         //2. Afegir parametres (dades extra) a la crida a l'activitat
         intent.putExtra("title",title);
         //3. passar l'intent a Android perquè obri l'activitat
-        startActivity(intent);
         startActivityForResult(intent, 0);
     }
 
